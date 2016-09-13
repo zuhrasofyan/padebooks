@@ -52,7 +52,7 @@
 
 		<?php endif; ?>
 
-		<div class="site-info">
+		<!--div class="site-info">
 			<div class="container container-footer-info"">
 
 				<div class="footer-copyright">
@@ -70,8 +70,8 @@
 					<a href="#" id="to-top" class="to-top"><?php _e( 'Back to top','zillah' ); ?> <i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
 				</div>
 			</div>
-		</div><!-- .site-info -->
-		
+		</div>< .site-info -->
+
 		<?php zillah_hook_footer_bottom(); ?>
 	</footer><!-- #colophon -->
 	<?php zillah_hook_footer_after(); ?>
