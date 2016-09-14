@@ -20,6 +20,7 @@
 				zillah_posted_date();
 				the_title( '<h2 class="entry-title entry-title-blog"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 				zillah_category();
+				echo get_author_name();
 				?>
 			</div>
 		</header><!-- .entry-header -->
